@@ -1,0 +1,26 @@
+{
+  "services": {
+    "export": {
+      "name": "Export timestamps",
+      "description": "Exports the timestamps of the person entering and leaving the zone.",
+      "fields": {
+        "person": {
+          "name": "Person",
+          "description": "The person entity to export the timestamps for."
+        },
+        "zone": {
+          "name": "Zone",
+          "description": "The zone entity to export the timestamps for."
+        },
+        "date_start": {
+          "name": "Start date",
+          "description": "The start date of the period to export the timestamps for."
+        },
+        "date_end": {
+          "name": "End date",
+          "description": "The end date of the period to export the timestamps for."
+        }
+      }
+    }
+  }
+}

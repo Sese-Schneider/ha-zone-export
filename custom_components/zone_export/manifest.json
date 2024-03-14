@@ -1,0 +1,11 @@
+{
+  "domain": "zone_export",
+  "name": "Zone Export",
+  "codeowners": ["@Sese-Schneider"],
+  "documentation": "https://github.com/Sese-Schneider/ha-zone-export",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Sese-Schneider/ha-zone-export/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

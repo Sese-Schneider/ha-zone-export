@@ -1,0 +1,21 @@
+export:
+  fields:
+    person:
+      example: person.lena
+      selector:
+        entity:
+          domain: person
+    zone:
+      example: zone.home
+      selector:
+        entity:
+          domain: zone
+    date_start:
+      example: '2024-01-01 00:00:00'
+      selector:
+        datetime:
+    date_end:
+      example: '2024-01-31 23:59:59'
+      selector:
+        datetime:
+
